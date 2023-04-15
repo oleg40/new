@@ -1,0 +1,60 @@
+body {
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.links a {
+    float: right;
+    margin-top: 2em;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    margin-bottom: none;
+    zoom:90%;
+}
+
+.field {
+    border-radius: 25px;
+    margin-bottom: 30px;
+    width: 48%;
+    height: 41px;
+    border:lightgray solid 1px;
+    box-sizing: border-box;
+    margin-top: none;
+}
+
+.field:hover {
+    border: lightgray solid 3px;
+}
+
+.field:focus {
+    border: none;
+}
+
+
+.btn {
+    border-radius: 4px;
+    width: 128px;
+    height: 32px;
+    border: none;
+    color:rgb(50, 49, 49);
+    background-color: rgb(245, 245, 245);
+}
+
+.btn:hover {
+    border: solid lightgray 1px;
+}
+
+.advanced {
+    text-align: left;
+}
