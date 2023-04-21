@@ -26,15 +26,16 @@ body {
 .field {
     border-radius: 25px;
     margin-bottom: 30px;
-    width: 48%;
+    width: 35rem;
     height: 41px;
     border:lightgray solid 1px;
     box-sizing: border-box;
     margin-top: none;
+    padding: 1em;
 }
 
 .field:hover {
-    border: lightgray solid 3px;
+    box-shadow: 0px 0px 5px #ccc;
 }
 
 .field:focus {
@@ -57,4 +58,41 @@ body {
 
 .advanced {
     text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.advanced td {
+    width: 50%
+}
+
+.advanced p {
+    font-size: 16px;
+}
+
+td > input {
+    width: 300%;
+}
+
+td > input:focus {
+    outline-color: royalblue;
+}
+
+
+
+.btnAdv {
+    background-color:rgb(69, 110, 231);
+    color: white;
+    border:none;
+    width: 10%;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+#search {
+    display: inline;
+}
+
+#btnFeeling {
+    display: inline;
 }

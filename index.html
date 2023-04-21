@@ -16,13 +16,21 @@
         </div>
         <br>
         <div class="search">
-            <form action="https://google.com/search">
-                <input class="field" type="text" name="q">
+            <br>
+            <form action="https://google.com/search" id="search">
+                <input class="field" type="text" name="q" id="field">
                 <br>
-                <input class="btn" type="submit" value="Google Search">
-                <input class="btn" type="submit" value="I'm feeling lucky">
+                <button class="btn" type="submit">Google Search</button>
             </form>
-        </div>
+            <button id="btnFeeling" class="btn">I'm Feeling Lucky</button>
 
+        </div>
+        <script>
+            const field = document.getElementById('field');
+            const btn = document.getElementById('btnFeeling');
+            btn.onclick = function() {
+                window.location.href = 'https://google.com/search?q=' + field.value + '&btnI';
+            };
+        </script>
     </body>
 </html>
