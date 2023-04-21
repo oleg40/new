@@ -81,12 +81,19 @@ td > input:focus {
 
 
 .btnAdv {
-    background-color:rgb(69, 110, 231);
+    background-color:#4d90fe;
     color: white;
     border:none;
-    width: 10%;
+    width: 150px;
     border-radius: 2px;
     margin: 10px;
+    padding: 5px;
+    margin-left: 520px;
+    font-size: 12px;
+}
+
+.btnAdv:hover {
+    background-color:#327ffc;
 }
 
 #search {
